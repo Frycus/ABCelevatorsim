@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\system_objects">
+      <UniqueIdentifier>{3966ae2b-5e80-4de3-8675-00dc8379708c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\time_events">
+      <UniqueIdentifier>{aaba2663-5df4-4db7-918c-76f7a2d96cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\conditional_events">
+      <UniqueIdentifier>{b8ec1d52-74ba-4b3c-9a51-4bfadb5289ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\system_objects">
+      <UniqueIdentifier>{7ad136c1-6dba-466b-919a-9e6767c5cb52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\time_events">
+      <UniqueIdentifier>{f9077870-d0f6-4325-9e65-c6032875da33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\conditional_events">
+      <UniqueIdentifier>{798fa1e1-7561-4187-87ca-35ba47a2e5d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\generator">
+      <UniqueIdentifier>{62be4025-b0ea-4893-b548-6c5294d3e4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Simulation">
+      <UniqueIdentifier>{7c28df83-3c73-49db-8fde-2758c5c69756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Simulation">
+      <UniqueIdentifier>{792b94db-dc4e-4021-9da0-14ad53287ed6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Building.cpp">
+      <Filter>Source Files\system_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevator.cpp">
+      <Filter>Source Files\system_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files\system_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>Source Files\system_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Service_desk.cpp">
+      <Filter>Source Files\system_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrivalToTheBuilding.cpp">
+      <Filter>Source Files\time_events</Filter>
+    </ClCompile>
+    <ClCompile Include="DepartureFromTheCounter.cpp">
+      <Filter>Source Files\time_events</Filter>
+    </ClCompile>
+    <ClCompile Include="ServiceAtTheCounter.cpp">
+      <Filter>Source Files\conditional_events</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevatorArrival.cpp">
+      <Filter>Source Files\time_events</Filter>
+    </ClCompile>
+    <ClCompile Include="ElevatorDeparture.cpp">
+      <Filter>Source Files\conditional_events</Filter>
+    </ClCompile>
+    <ClCompile Include="RNG.cpp">
+      <Filter>Header Files\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernels.cpp">
+      <Filter>Header Files\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Generator.cpp">
+      <Filter>Header Files\generator</Filter>
+    </ClCompile>
+    <ClCompile Include="Simulation.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="EventList.cpp">
+      <Filter>Source Files\Simulation</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>Source Files\time_events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files\system_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>Header Files\system_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Service_desk.h">
+      <Filter>Header Files\system_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevator.h">
+      <Filter>Header Files\system_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files\system_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ArrivalToTheBuilding.h">
+      <Filter>Header Files\time_events</Filter>
+    </ClInclude>
+    <ClInclude Include="ServiceAtTheCounter.h">
+      <Filter>Header Files\conditional_events</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevatorDeparture.h">
+      <Filter>Header Files\conditional_events</Filter>
+    </ClInclude>
+    <ClInclude Include="ElevatorArrival.h">
+      <Filter>Header Files\time_events</Filter>
+    </ClInclude>
+    <ClInclude Include="RNG.h">
+      <Filter>Header Files\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernels.h">
+      <Filter>Header Files\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="Generator.h">
+      <Filter>Header Files\generator</Filter>
+    </ClInclude>
+    <ClInclude Include="DepartureFromTheCounter.h">
+      <Filter>Header Files\time_events</Filter>
+    </ClInclude>
+    <ClInclude Include="EventList.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files\Simulation</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>Header Files\time_events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
